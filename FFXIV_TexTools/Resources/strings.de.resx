@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Au_Ra" xml:space="preserve">
+    <value>Au Ra</value>
+  </data>
+  <data name="Bishop_Autoturret" xml:space="preserve">
+    <value>Selbstschuss-Gyrocopter LÄUFER</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Rumpf</value>
+  </data>
+  <data name="Body_Hands" xml:space="preserve">
+    <value>Rumpf + Hände</value>
+  </data>
+  <data name="Body_Hands_Legs" xml:space="preserve">
+    <value>Rumpf + Hände + Beine</value>
+  </data>
+  <data name="Body_Hands_Legs_Feet" xml:space="preserve">
+    <value>Rumpf + Hände +Beine + Füße</value>
+  </data>
+  <data name="Body_Legs_Feet" xml:space="preserve">
+    <value>Rumpf + Beine + Füße</value>
+  </data>
+  <data name="Carbuncle" xml:space="preserve">
+    <value>Karfunkel</value>
+  </data>
+  <data name="Character" xml:space="preserve">
+    <value>Charakter</value>
+  </data>
+  <data name="Ears" xml:space="preserve">
+    <value>Ohren</value>
+  </data>
+  <data name="Elezen" xml:space="preserve">
+    <value>Elezen</value>
+  </data>
+  <data name="Eos" xml:space="preserve">
+    <value>Eos</value>
+  </data>
+  <data name="Face" xml:space="preserve">
+    <value>Gesicht</value>
+  </data>
+  <data name="Face_Paint" xml:space="preserve">
+    <value>Merkmale</value>
+  </data>
+  <data name="Feet" xml:space="preserve">
+    <value>Füße</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Weiblich</value>
+  </data>
+  <data name="Garuda_Egi" xml:space="preserve">
+    <value>Garuda Egi</value>
+  </data>
+  <data name="Hair" xml:space="preserve">
+    <value>Haar</value>
+  </data>
+  <data name="Hands" xml:space="preserve">
+    <value>Hände</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Kopf</value>
+  </data>
+  <data name="Head_Body" xml:space="preserve">
+    <value>Kopf + Rumpf</value>
+  </data>
+  <data name="Highlander" xml:space="preserve">
+    <value>Hochländer</value>
+  </data>
+  <data name="Hyur" xml:space="preserve">
+    <value>Hyuran</value>
+  </data>
+  <data name="Ifrit_Egi" xml:space="preserve">
+    <value>Ifrit Egi</value>
+  </data>
+  <data name="Item_0" xml:space="preserve">
+    <value>0039D780</value>
+  </data>
+  <data name="Item_1000" xml:space="preserve">
+    <value>00323080</value>
+  </data>
+  <data name="Item_10000" xml:space="preserve">
+    <value>0001FB00</value>
+  </data>
+  <data name="Item_10500" xml:space="preserve">
+    <value>0450CD00</value>
+  </data>
+  <data name="Item_11000" xml:space="preserve">
+    <value>036DCC00</value>
+  </data>
+  <data name="Item_11500" xml:space="preserve">
+    <value>046CDC00</value>
+  </data>
+  <data name="Item_12000" xml:space="preserve">
+    <value>0281A380</value>
+  </data>
+  <data name="Item_12500" xml:space="preserve">
+    <value>011A3200</value>
+  </data>
+  <data name="Item_13000" xml:space="preserve">
+    <value>040F6C80</value>
+  </data>
+  <data name="Item_13500" xml:space="preserve">
+    <value>0262E400</value>
+  </data>
+  <data name="Item_14000" xml:space="preserve">
+    <value>0430F000</value>
+  </data>
+  <data name="Item_14500" xml:space="preserve">
+    <value>03438500</value>
+  </data>
+  <data name="Item_1500" xml:space="preserve">
+    <value>01225E00</value>
+  </data>
+  <data name="Item_15000" xml:space="preserve">
+    <value>02E0EA80</value>
+  </data>
+  <data name="Item_2000" xml:space="preserve">
+    <value>0121DD80</value>
+  </data>
+  <data name="Item_2500" xml:space="preserve">
+    <value>00380D80</value>
+  </data>
+  <data name="Item_3000" xml:space="preserve">
+    <value>011DBC80</value>
+  </data>
+  <data name="Item_3500" xml:space="preserve">
+    <value>02CE3300</value>
+  </data>
+  <data name="Item_4000" xml:space="preserve">
+    <value>01273F00</value>
+  </data>
+  <data name="Item_4500" xml:space="preserve">
+    <value>01674400</value>
+  </data>
+  <data name="Item_500" xml:space="preserve">
+    <value>00660480</value>
+  </data>
+  <data name="Item_5000" xml:space="preserve">
+    <value>00100680</value>
+  </data>
+  <data name="Item_5500" xml:space="preserve">
+    <value>0127B700</value>
+  </data>
+  <data name="Item_6000" xml:space="preserve">
+    <value>011AED80</value>
+  </data>
+  <data name="Item_6500" xml:space="preserve">
+    <value>0118B980</value>
+  </data>
+  <data name="Item_7000" xml:space="preserve">
+    <value>01173A80</value>
+  </data>
+  <data name="Item_7500" xml:space="preserve">
+    <value>01B83C00</value>
+  </data>
+  <data name="Item_8000" xml:space="preserve">
+    <value>029BE500</value>
+  </data>
+  <data name="Item_8500" xml:space="preserve">
+    <value>00363180</value>
+  </data>
+  <data name="Item_9000" xml:space="preserve">
+    <value>02A20B80</value>
+  </data>
+  <data name="Item_9500" xml:space="preserve">
+    <value>04503C00</value>
+  </data>
+  <data name="Lalafell" xml:space="preserve">
+    <value>Lalafell</value>
+  </data>
+  <data name="Legs" xml:space="preserve">
+    <value>Beine</value>
+  </data>
+  <data name="Legs_Feet" xml:space="preserve">
+    <value>Beine + Füße</value>
+  </data>
+  <data name="Main_Hand" xml:space="preserve">
+    <value>Haupthand</value>
+  </data>
+  <data name="Main_Off" xml:space="preserve">
+    <value>Haupthand + Nebenhand</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Männlich</value>
+  </data>
+  <data name="Midlander" xml:space="preserve">
+    <value>Wiesländer</value>
+  </data>
+  <data name="Minions" xml:space="preserve">
+    <value>Begleiter</value>
+  </data>
+  <data name="Miqote" xml:space="preserve">
+    <value>Miqo'te</value>
+  </data>
+  <data name="mountEXD" xml:space="preserve">
+    <value>042DAC80</value>
+  </data>
+  <data name="Mounts" xml:space="preserve">
+    <value>Reittiere</value>
+  </data>
+  <data name="Neck" xml:space="preserve">
+    <value>Hals</value>
+  </data>
+  <data name="Off_Hand" xml:space="preserve">
+    <value>Nebenhand</value>
+  </data>
+  <data name="Pets" xml:space="preserve">
+    <value>Familiare</value>
+  </data>
+  <data name="Ramuh_Egi" xml:space="preserve">
+    <value>Ramuh Egi</value>
+  </data>
+  <data name="Rings" xml:space="preserve">
+    <value>Ring</value>
+  </data>
+  <data name="Roegadyn" xml:space="preserve">
+    <value>Roegadyn</value>
+  </data>
+  <data name="Rook_Autoturret" xml:space="preserve">
+    <value>Selbstschuss-Gyrocopter TURM</value>
+  </data>
+  <data name="Selene" xml:space="preserve">
+    <value>Selene</value>
+  </data>
+  <data name="Soul_Crystal" xml:space="preserve">
+    <value>Jobkristall</value>
+  </data>
+  <data name="Tail" xml:space="preserve">
+    <value>Schwanz</value>
+  </data>
+  <data name="Titan_Egi" xml:space="preserve">
+    <value>Titan Egi</value>
+  </data>
+  <data name="Two_Handed" xml:space="preserve">
+    <value>Zweihändig</value>
+  </data>
+  <data name="Waist" xml:space="preserve">
+    <value>Taille</value>
+  </data>
+  <data name="Wrists" xml:space="preserve">
+    <value>Handgelenke</value>
+  </data>
+  <data name="minionEXD" xml:space="preserve">
+    <value>000A4C80</value>
+  </data>
+  <data name="Black_Chocobo" xml:space="preserve">
+    <value>Flug</value>
+  </data>
+  <data name="Ceremony_Chocobo" xml:space="preserve">
+    <value>Zeremonial</value>
+  </data>
+  <data name="Company_Chocobo" xml:space="preserve">
+    <value>Gesellschafts</value>
+  </data>
+  <data name="Draught_Chocobo" xml:space="preserve">
+    <value>Tandem</value>
+  </data>
+  <data name="Legacy_Chocobo" xml:space="preserve">
+    <value>Legacy</value>
+  </data>
+  <data name="Magitek" xml:space="preserve">
+    <value>Magitek</value>
+  </data>
+  <data name="Red_Baron" xml:space="preserve">
+    <value>Baron</value>
+  </data>
+  <data name="Twintania" xml:space="preserve">
+    <value>Twintania</value>
+  </data>
+  <data name="Warsteed" xml:space="preserve">
+    <value>schlachtross</value>
+  </data>
+  <data name="White_Devil" xml:space="preserve">
+    <value>Teufel</value>
+  </data>
+  <data name="Item_15500" xml:space="preserve">
+    <value>0434F400</value>
+  </data>
+  <data name="Item_16000" xml:space="preserve">
+    <value>04FB6C00</value>
+  </data>
+</root>
