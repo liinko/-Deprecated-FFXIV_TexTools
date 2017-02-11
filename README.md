@@ -10,6 +10,4 @@ I decided to leave things the way they are and release them because I am in the 
 
 # Research Files
 
-**index files**
-
- https://docs.google.com/document/d/1MbirT8IZIwJ_WY09X6NM-O1WM8nfqaagGPPcePQDn8I/edit?usp=sharing
+[.index file](https://docs.google.com/document/d/1MbirT8IZIwJ_WY09X6NM-O1WM8nfqaagGPPcePQDn8I/edit?usp=sharing)
