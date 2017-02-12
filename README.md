@@ -11,3 +11,5 @@ I decided to leave things the way they are and release them because I am in the 
 # Research Files
 
 [.index file](https://docs.google.com/document/d/1MbirT8IZIwJ_WY09X6NM-O1WM8nfqaagGPPcePQDn8I/edit?usp=sharing)
+
+[.dat file](https://docs.google.com/document/d/1LZ9yoYbst9IByYSAfCxJ12HRRWnXEoPikPvEqleYlIg/edit?usp=sharing)
