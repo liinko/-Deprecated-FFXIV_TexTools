@@ -17,3 +17,5 @@ I decided to leave things the way they are and release them because I am in the 
 [.mtrl file](https://docs.google.com/document/d/1UvzQIxTvLCszrEvANuLJC1-HeoiMsBNGtWO5rJT0sRU/edit?usp=sharing)
 
 [.imc file](https://docs.google.com/document/d/1maLG-7TifdHxMItKbtRLRxVWjI6I1yLIWcbl8ok3kyY/edit?usp=sharing)
+
+[.exd file](https://docs.google.com/document/d/1hBAnvNg1C9QplmV9AAhq_a1DuT0ZK28BjDPPobf4GQM/edit?usp=sharing)
