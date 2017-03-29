@@ -67,7 +67,7 @@ namespace FFXIV_TexTools.IO
         private void makeMinionsList(string offset)
         {
             byte[] minionsBytes = getDecompressedBytes(offset);
-            byte[] modelchara = getDecompressedBytes("04CDED00");
+            byte[] modelchara = getDecompressedBytes("05044080");
 
             using (BinaryReader br = new BinaryReader(new MemoryStream(minionsBytes)))
             {
@@ -156,7 +156,7 @@ namespace FFXIV_TexTools.IO
         private void makeMountsList(string offset)
         {
             byte[] mountBytes = getDecompressedBytes(offset);
-            byte[] modelchara = getDecompressedBytes("04CDED00");
+            byte[] modelchara = getDecompressedBytes("05044080");
 
             using (BinaryReader br = new BinaryReader(new MemoryStream(mountBytes)))
             {
