@@ -727,6 +727,15 @@ namespace FFXIV_TexTools.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 05044080.
+        /// </summary>
+        internal static string Modelchara_0 {
+            get {
+                return ResourceManager.GetString("Modelchara_0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 02883500.
         /// </summary>
         internal static string mountEXD {

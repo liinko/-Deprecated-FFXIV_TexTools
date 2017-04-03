@@ -13,3 +13,11 @@ I decided to leave things the way they are and release them because I am in the 
 [.index file](https://docs.google.com/document/d/1MbirT8IZIwJ_WY09X6NM-O1WM8nfqaagGPPcePQDn8I/edit?usp=sharing)
 
 [.dat file](https://docs.google.com/document/d/1LZ9yoYbst9IByYSAfCxJ12HRRWnXEoPikPvEqleYlIg/edit?usp=sharing)
+
+[.mtrl file](https://docs.google.com/document/d/1UvzQIxTvLCszrEvANuLJC1-HeoiMsBNGtWO5rJT0sRU/edit?usp=sharing)
+
+[.imc file](https://docs.google.com/document/d/1maLG-7TifdHxMItKbtRLRxVWjI6I1yLIWcbl8ok3kyY/edit?usp=sharing)
+
+[.exd file](https://docs.google.com/document/d/1hBAnvNg1C9QplmV9AAhq_a1DuT0ZK28BjDPPobf4GQM/edit?usp=sharing)
+
+[.mdl file](https://docs.google.com/document/d/1S3WZEsVhccvYjOP6xAUgE7aYy3mccHdNf_2sPh0Fn9o/edit?usp=sharing)

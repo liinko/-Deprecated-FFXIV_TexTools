@@ -23,6 +23,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FFXIV_TexTools.Helpers;
+using FFXIV_TexTools.Resources;
 
 namespace FFXIV_TexTools.IO
 {
@@ -67,7 +68,7 @@ namespace FFXIV_TexTools.IO
         private void makeMinionsList(string offset)
         {
             byte[] minionsBytes = getDecompressedBytes(offset);
-            byte[] modelchara = getDecompressedBytes("04CDED00");
+            byte[] modelchara = getDecompressedBytes(strings.Modelchara_0);
 
             using (BinaryReader br = new BinaryReader(new MemoryStream(minionsBytes)))
             {
@@ -156,7 +157,7 @@ namespace FFXIV_TexTools.IO
         private void makeMountsList(string offset)
         {
             byte[] mountBytes = getDecompressedBytes(offset);
-            byte[] modelchara = getDecompressedBytes("04CDED00");
+            byte[] modelchara = getDecompressedBytes(strings.Modelchara_0);
 
             using (BinaryReader br = new BinaryReader(new MemoryStream(mountBytes)))
             {
@@ -212,7 +213,11 @@ namespace FFXIV_TexTools.IO
 
                                     Items item = new Items(model.ToString(), "", "", variant.ToString(), "", body.ToString(), "", false);
 
-                                    mountsDict.Add(mountName, item);
+                                    if (!mountsDict.ContainsKey(mountName))
+                                    {
+                                        mountsDict.Add(mountName, item);
+                                    }
+
                                     break;
                                 }
                             }
