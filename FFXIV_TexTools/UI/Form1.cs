@@ -1046,6 +1046,17 @@ namespace FFXIV_TexTools
                         File.Move(Properties.Settings.Default.DefaultDir + "/040000.win32.index2", Properties.Settings.Default.DefaultDir + "/040000.win32.index2.bak");
                     }
                 }
+                else if (cp.getProb().Equals("dat"))
+                {
+                    string message = "The game is only reading it's original dat files, ignoring the modified textures dat file."
+                        + "\n\nIf you have modified a texture and the game is crashing this may fix the issue. \n\nPress OK to apply fix.";
+                    var result = MessageBox.Show(message, "Problem Found", MessageBoxButtons.OKCancel);
+
+                    if (result == DialogResult.OK)
+                    {
+                        cp.reapplyFix();
+                    }
+                }
                 else
                 {
                     MessageBox.Show("No problems found, if you are experiencing any issues or bugs, please report them under Help > Report Bug.", "No problems found");

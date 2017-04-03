@@ -47,15 +47,15 @@ namespace FFXIV_TexTools.IO
             }
 
             bool index2Exists = File.Exists(Properties.Settings.Default.DefaultDir + "/040000.win32.index2");
-            if (check == 4 && !index2Exists)
-            {
-                prob = "None";
-            }
-            else if (index2Exists)
+            if (index2Exists)
             {
                 prob = "index2";
             }
-            else
+            else if (check != 4)
+            {
+                prob = "dat";
+            }
+            else if (!index2Exists)
             {
                 foreach (string line in File.ReadLines(Properties.Settings.Default.DefaultDir + "/040000.modlist"))
                 {
@@ -77,7 +77,10 @@ namespace FFXIV_TexTools.IO
                         break;
                     }
                 }
-
+            }
+            else
+            {
+                prob = "None";
             }
         }
 

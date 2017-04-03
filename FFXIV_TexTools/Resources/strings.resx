@@ -399,4 +399,7 @@
   <data name="Item_16000" xml:space="preserve">
     <value>0344FF00</value>
   </data>
+  <data name="Modelchara_0" xml:space="preserve">
+    <value>05044080</value>
+  </data>
 </root>
