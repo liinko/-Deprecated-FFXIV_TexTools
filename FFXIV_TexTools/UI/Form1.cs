@@ -310,7 +310,7 @@ namespace FFXIV_TexTools
                 Resources.strings.Item_6000, Resources.strings.Item_6500, Resources.strings.Item_7000, Resources.strings.Item_7500, Resources.strings.Item_8000, Resources.strings.Item_8500,
                 Resources.strings.Item_9000, Resources.strings.Item_9500, Resources.strings.Item_10000, Resources.strings.Item_10500, Resources.strings.Item_11000, Resources.strings.Item_11500,
                 Resources.strings.Item_12000, Resources.strings.Item_12500, Resources.strings.Item_13000, Resources.strings.Item_13500, Resources.strings.Item_14000, Resources.strings.Item_14500,
-                Resources.strings.Item_15000, Resources.strings.Item_15500, Resources.strings.Item_16000};
+                Resources.strings.Item_15000, Resources.strings.Item_15500, Resources.strings.Item_16000, Resources.strings.Item_16500, Resources.strings.Item_17000, Resources.strings.Item_17500};
 
             string mountHex = Resources.strings.mountEXD;
             string minionHex = Resources.strings.minionEXD;
