@@ -55,29 +55,29 @@ namespace FFXIV_TexTools.IO
             {
                 prob = "dat";
             }
-            else if (!index2Exists)
-            {
-                foreach (string line in File.ReadLines(Properties.Settings.Default.DefaultDir + "/040000.modlist"))
-                {
-                    jModEntry modEntry = JsonConvert.DeserializeObject<jModEntry>(line);
+            //else if (!index2Exists)
+            //{
+            //    foreach (string line in File.ReadLines(Properties.Settings.Default.DefaultDir + "/040000.modlist"))
+            //    {
+            //        jModEntry modEntry = JsonConvert.DeserializeObject<jModEntry>(line);
 
-                    IOHelper ioHelper = new IOHelper();
-                    if (!modEntry.name.Contains("mt_"))
-                    {
-                        isActive = ioHelper.isActive(crc.text(modEntry.name + ".tex"), modEntry.folder, modEntry.modOffset);
-                    }
-                    else
-                    {
-                        isActive = ioHelper.isActive(crc.text(modEntry.name + ".mtrl"), modEntry.folder, modEntry.modOffset);
-                    }
+            //        IOHelper ioHelper = new IOHelper();
+            //        if (!modEntry.name.Contains("mt_"))
+            //        {
+            //            isActive = ioHelper.isActive(crc.text(modEntry.name + ".tex"), modEntry.folder, modEntry.modOffset);
+            //        }
+            //        else
+            //        {
+            //            isActive = ioHelper.isActive(crc.text(modEntry.name + ".mtrl"), modEntry.folder, modEntry.modOffset);
+            //        }
 
-                    if(isActive == true)
-                    {
-                        prob = "num";
-                        break;
-                    }
-                }
-            }
+            //        if(isActive == true)
+            //        {
+            //            prob = "num";
+            //            break;
+            //        }
+            //    }
+            //}
             else
             {
                 prob = "None";
