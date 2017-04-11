@@ -280,7 +280,7 @@
     <value>0370DE80</value>
   </data>
   <data name="Item_9000" xml:space="preserve">
-    <value>03738E80</value>
+    <value>0467CF00</value>
   </data>
   <data name="Item_9500" xml:space="preserve">
     <value>0129EA80</value>
@@ -394,9 +394,18 @@
     <value>魔導アーマー</value>
   </data>
   <data name="Item_15500" xml:space="preserve">
-    <value>031EE000</value>
+    <value>04FB6C00</value>
   </data>
   <data name="Item_16000" xml:space="preserve">
     <value>04C7D500</value>
+  </data>
+  <data name="Item_16500" xml:space="preserve">
+    <value>04E0CA80</value>
+  </data>
+  <data name="Item_17000" xml:space="preserve">
+    <value>03746D80</value>
+  </data>
+  <data name="Item_17500" xml:space="preserve">
+    <value>04F9F400</value>
   </data>
 </root>

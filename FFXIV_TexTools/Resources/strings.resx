@@ -397,9 +397,18 @@
     <value>04720980</value>
   </data>
   <data name="Item_16000" xml:space="preserve">
-    <value>0344FF00</value>
+    <value>04FCD080</value>
   </data>
   <data name="Modelchara_0" xml:space="preserve">
     <value>05044080</value>
+  </data>
+  <data name="Item_16500" xml:space="preserve">
+    <value>029B0500</value>
+  </data>
+  <data name="Item_17000" xml:space="preserve">
+    <value>05030380</value>
+  </data>
+  <data name="Item_17500" xml:space="preserve">
+    <value>05037800</value>
   </data>
 </root>

@@ -457,11 +457,38 @@ namespace FFXIV_TexTools.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0344FF00.
+        ///   Looks up a localized string similar to 04FCD080.
         /// </summary>
         internal static string Item_16000 {
             get {
                 return ResourceManager.GetString("Item_16000", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 029B0500.
+        /// </summary>
+        internal static string Item_16500 {
+            get {
+                return ResourceManager.GetString("Item_16500", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 05030380.
+        /// </summary>
+        internal static string Item_17000 {
+            get {
+                return ResourceManager.GetString("Item_17000", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 05037800.
+        /// </summary>
+        internal static string Item_17500 {
+            get {
+                return ResourceManager.GetString("Item_17500", resourceCulture);
             }
         }
         
